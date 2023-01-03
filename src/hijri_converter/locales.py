@@ -203,3 +203,50 @@ class BengaliLocale(Locale):
     ]
     notation = "হিজরি"
     gregorian_notation = "খ্রিস্টাব্দ"
+
+    
+    class IndonesiaLocale(Locale):
+    """An Bahasa Indonesia Locale object represents Bahasa Indonesia locale-specific data and
+    functionality.
+    """
+
+    language_tag = "id"
+    month_names = [
+        "Muharram",
+        "Safar",
+        "Rabiul Awal",
+        "Rabiul Akhir",
+        "Jumadil Awal",
+        "Jumadil Akhir",
+        "Rajab",
+        "Syakban",
+        "Ramadhan",
+        "Syawal",
+        "Dzulkaidah",
+        "Dzulhijjah",
+    ]
+    gregorian_month_names = [
+        "Januari",
+        "Februari",
+        "Maret",
+        "April",
+        "Mei",
+        "Juni",
+        "Juli",
+        "Agustus",
+        "September",
+        "Oktober",
+        "November",
+        "Desember",
+    ]
+    day_names = [
+        "Senin",
+        "Selasa",
+        "Rabu",
+        "Kamis",
+        "Jumat",
+        "Sabtu",
+        "Minggu",
+    ]
+    notation = "AH"
+    gregorian_notation = "CE"
