@@ -205,7 +205,7 @@ class BengaliLocale(Locale):
     gregorian_notation = "খ্রিস্টাব্দ"
 
     
-    class IndonesiaLocale(Locale):
+class IndonesiaLocale(Locale):
     """An Bahasa Indonesia Locale object represents Bahasa Indonesia locale-specific data and
     functionality.
     """
